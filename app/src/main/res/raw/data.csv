@@ -1,0 +1,43 @@
+1,2,2,As you start your journey you enter the Enchanted Woods,-,start
+2,3,17,You come to a crossroads - there is a sign indicating that one path leads to a nearby village and the other towards the Labyrinth where the minotaur lies,Do you take the path towards the Village (1) or Labyrinth (2),none
+3,4,7,You arrive at the Village,Do you resupply at the shop keeper (1) or talk to the villagers (2)? ,none
+4,5,6,You go to see the shopkeeper - he is selling a 'Cheat Death Potion' and an 'Invisiblity Potion' but you can only afford one,Which do you buy? Cheat Death (1) or Invisibility(2),none
+5,8,8,You aquire the "Cheat Death Potion",-,cheatDeath
+6,8,8,You aquire the "Invisibility Potion",-,invisPotion
+7,8,8,You talk to villagers about your quest to claim the Minotaur's head. They warn you of the Labyrinth - specifically of a foul stench and that you should run if you come across it,-,none
+8,9,16,It's beginning to get dark - there is an Inn in the town where you could stay, Stay the night (1) or continue your journey (2), none
+9,13,10,You decide to stay the night. You are woken in the middle of the night to the smell of smoke and screams, Assess the situation (1) or rush outside (2)?,none
+10,11,13,The town is under attack by Goblins! You see a man cornered by a group of goblins armed with daggers., Help the man (1) or make an escape (2)?,none
+11,12,12,You rush to help the man fending off the goblins. You manage to save the man but take damage,-,damage
+12,13,13,The man thanks you for saving him - in return he gives you an "Underground Tunnel Map",-,map
+13,14,15,You make your way to the center of the town. You fend off goblins taking damage but the situation is dire, Stay and fight (1) or flee(2),damage
+14,25,25,You stay and fight. The battle lasts until morning but you are successful. You take some damage but you're alive. The Villagers offer you transport to the Labyrinth as thanks,-,damage
+15,16,16,You make a run from the Village. As you flee you are shot in the back by an arrow. You likely won't last much longer.,-,damage
+16,25,25,You continue your journey under dusk - as you trek towards the Labyrinth you are attacked by a bank of thieves,-,damage
+17,18,22,You come across a Pixie, Follow the Pixie (1) or continue towards the Labyrinth (2)?,none
+18,19,21,The Pixie leads you to a sparkling gold chest!, Open the chest (1) or head back (2)?,none
+19,20,20,As you open the chest a log comes swinging from a nearby tree! You manage to survive but take damage,-,damage
+20,21,21,You open the chest and acquire a "Sword",-,sword
+21,25,16,It's beginning to get dark, Should you camp out for the night (1) or continue your journey (2)?,none
+22,24,23,You make your way down the dirt track. You hear movement in the bushes nearby, Check out the bushes (1) or hide nearby (2),none
+23,24,21,You hide nearby - you hear growling. There is a beast behind the bushes, Throw a rock (1) or make a run for it (2),none
+24,21,21,A wolf appears and attacks you. You manage to fend it off but take damage,-,damage
+25,50,50,You reach the Labyrinth,-,none
+50,34,26,check map,-,check-map
+26,27,30,As you enter the Labyrinth you immediately are struck by this foul stench coming from a dimly lit hall.,Continue forwards (1) or investigate foul stench (2),none
+27,28,29,As you continue forwards the path splits. One path leads to a room with light and another down a dark passageway.,Head towards the light (1) or dark passageway (2),none
+28,37,37,The light was coming from a pack of gnolls - you fight them off taking damage.,-,damage
+29,37,37,The dark passagewaty continues for what seems like forver. You continue onwards until you see a massive door.,-,none
+30,31,31,You find a massive slime monster - it's body consists of decaying bodies of adventurers its devoured. You need to run!,-,none
+31,32,33,Check for invis,-,check-invisPotion
+32,37,37,You use the invisibility potion and sneak your way past. As you sneak past you pick up a "Sword" from it's body.,-,sword
+32,37,37,You use the invisibility potion and sneak your way past. As you sneak past you pick up a "Sword" from it's body.,-,sword
+33,99,99,You were overwhelmed by the massive slime monster and suffocated to death.,-,none
+34,35,35,You follow the map that the Villagers gave you. Along the way you find an alchemy lab.,-,none
+35,36,36,You aquire a "Strength Potion",-,strengthPotion
+36,37,37,You make your way through the Labyrinth following the map. Until the finally reach the Minotaur's lair.,-,none
+37,38,38,As you enter the room the doors close behind you - you spot the Minotaur in the middle of the room.,-,bossRoom
+38,39,40,Check stats and items,-,boss
+39,1,1,You defeat the Minotaur! You are awarded 100 gold,-,none
+40,99,99,You fight valiantly but succumb to the Minotaur.,-,none
+99,1,1,You have died - play again?,-,death

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">StoryProject</string>
+    <string name="preClick">please click the button</string>
+
+    <string name="clickedButton">you clicked the button!</string>
+
+
+    <!--Main activity-->
+    <string name="questTitle">WANTED!</string>
+    <string name="questText">Minotaur sighted\n DEAD OR ALIVE \n</string>
+    <string name="questPrice">100 gold coins!</string>
+
+    <!--Choice screen-->
+    <string name="initialDescription">As you start your journey you enter the Enchanted Woods</string>
+    <string name="initialQuestion">Press any button to continue!</string>
+
+    <string name="optionOneText">Option One</string>
+    <string name="optionTwoText">Option Two</string>
+
+    <string name="noOptionText">Press any button to continue!</string>
+    <string name="accept_quest">Accept Quest</string>
+
+
+</resources>
