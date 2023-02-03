@@ -1,16 +1,16 @@
 # java-story-game
  
 
-##Sample screenshots of app
+## Sample screenshots of app
 
-###Start screen
+### Start screen
 
 ![Sample of app](startscreen.png)
 
-###Option screen
+### Option screen
 
 ![Sample of app](optionscreen.png)
 
-###Inventory screen
+### Inventory screen
 
 ![Sample of app](inventoryscreen.png)
